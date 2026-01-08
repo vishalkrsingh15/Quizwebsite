@@ -1,0 +1,102 @@
+body {
+    font-family: Arial;
+    background-color: #000;
+    color: #f1f1f1;
+}
+
+.quiz-box {
+    width: 420px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255,255,255,0.1);
+}
+
+.option {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #555;
+    cursor: pointer;
+    color: #ddd;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background-color: #333;
+}
+
+.selected {
+    background-color: #264d73;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Speedometer */
+.meter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: conic-gradient(#b71c1c 0deg, #b71c1c 360deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle span {
+    background-color: #1e1e1e;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Reaction */
+#reaction {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* Wrong Answers */
+#wron gAnswers, #wrongAnswers {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.wrong-box {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.correct {
+    color: #4caf50;
+}
+
+.wrong {
+    color: #ef5350;
+}

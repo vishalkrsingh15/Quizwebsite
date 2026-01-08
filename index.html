@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Online Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-box" id="startBox">
+    <h2>Java Online Quiz</h2>
+    <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<div class="quiz-box" id="quizBox" style="display:none;">
+    <h3 id="question"></h3>
+    <div id="options"></div>
+    <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div class="quiz-box" id="resultBox" style="display:none;">
+    <h2>Result</h2>
+
+    <div class="meter">
+        <div class="circle">
+            <span id="percentage"></span>
+        </div>
+    </div>
+
+    <div id="reaction"></div>
+    <p id="resultText"></p>
+
+    <div id="wrongAnswers"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
